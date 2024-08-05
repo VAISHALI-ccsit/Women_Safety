@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Woman Safety</string>
+    <string name="login_as_woman">Login as Woman</string>
+    <string name="login_woman">Login Woman</string>
+    <string name="your_phone_number_or_e_mail">Your Phone number or E-mail</string>
+    <string name="phone_number_woman">Phone Number</string>
+    <string name="your_password">Your Password</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register">don\'t have an account? Register</string>
+    <string name="login_member">Login Member</string>
+    <string name="your_phone_number_or_email">Your Phone number or E-mail</string>
+    <string name="phone_number_family">Phone Number</string>
+    <string name="your_Password">Your Password</string>
+    <string name="Password">Password</string>
+    <string name="forget_Password">Forget Password</string>
+    <string name="Login">Login</string>
+    <string name="dont_have_an_account_register">don\'t have an account? Register</string>
+    <string name="login_admin">Login Admin</string>
+    <string name="your_Phone_number_or_email">Your Phone number or E-mail</string>
+    <string name="Phone_number_admin">Phone Number</string>
+    <string name="Your_Password">Your Password</string>
+    <string name="Passwords">Password</string>
+    <string name="Forget_Password">Forget Password</string>
+    <string name="LogIn">Login</string>
+    <string name="dont_have_account_register">don\'t have an account? Register</string>
+    <string name="select_any_option">Select any option</string>
+
+    <string name="home">HOME</string>
+    <string name="medical_help">MEDICAL HELP</string>
+    <string name="police_help">POLICE HELP</string>
+    <string name="map">MAP</string>
+    <string name="guidelines">GUIDELINES</string>
+    <string name="profile">Profile</string>
+    <string name="profile_details">Profile details</string>
+    <string name="logout">Logout</string>
+    <string name="self_defence">Self-defence</string>
+    <string name="government_websites_for_help">Government websites for help</string>
+    <string name="hello">HELLO</string>
+    <string name="nice_meeting_you">NICE MEETING YOU!</string>
+
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_more">Explore More</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="search">Search</string>
+    <string name="women_empowerment">Each time a woman stands for herself, she stands up for all women</string>
+    <string name="safety_tips">Safety Tips</string>
+    <string name="_1">Map</string>
+    <string name="police_help_1">Police help</string>
+    <string name="medical_help_1">Medical help</string>
+    <string name="click">Click</string>
+    <string name="title" />
+    <string name="add_contact">Add contact</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="add_all_emergency_personal_contacts_here">Add All Emergency Personal Contacts Here</string>
+    <string name="note_add_atleast_one_number_and_maximum_5_numbers">Note: Add atleast one number and maximum 5 numbers</string>
+    <string name="note_add_atleast_1_number_and_maximum_5_numbers">Note: Add atleast 1 number and maximum 5 numbers</string>
+    <string name="register_admin">Register Admin</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="http_ncw_nic_in_ncw_cells_women_safety_cell">http://ncw.nic.in/ncw-cells/Women-Safety-Cell</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="national_commission_for_women">National Commission for Women</string>
+
+</resources>

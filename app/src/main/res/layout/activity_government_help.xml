@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GovernmentHelp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/national_commission_for_women"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/visit_website"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/http_ncw_nic_in_ncw_cells_women_safety_cell"
+                android:autoLink="web"
+                android:id="@+id/infoTxtCredits"
+                android:linksClickable="true"/>
+
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:text="Women Safety Division"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Visit Website:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.mha.gov.in/en/divisionofmha/women-safety-division"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <WebView
+                android:id="@+id/women_safety_division"
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"/>
+
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:text="Forbes India"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Visit Website:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.forbesindia.com/article/brand-connect/government-initiatives-for-womens-safety-best-practices/79383/1"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <WebView
+                android:id="@+id/forbes_india"
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:text="PIB Article"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Visit Website:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://pib.gov.in/Pressreleaseshare.aspx?PRID=1575574"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <WebView
+                android:id="@+id/pib_article"
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:text="Ministry Of Women And Child Development"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Visit Website:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.india.gov.in/official-website-ministry-women-and-child-development-0"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <WebView
+                android:id="@+id/women_and_child_development"
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

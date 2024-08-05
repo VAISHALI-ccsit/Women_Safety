@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sky_blue"
+    tools:context=".LoginFamily">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationViewAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/family" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="20dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:padding="24dp"
+                android:background="@drawable/lavender_border">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_member"
+                    android:textAlignment="center"
+                    android:textColor="@color/light_blue"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/your_phone_number_or_email"
+                    android:textStyle="bold"
+                    android:textColor="@color/light_blue"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/FamilyLogPhoneEmail"
+                    android:background="@drawable/lavender_border"
+                    android:layout_marginTop="12dp"
+                    android:drawableStart="@drawable/person_woman"
+                    android:padding="8dp"
+                    android:hint="@string/phone_number_family"
+                    android:inputType="number"
+                    android:drawablePadding="8dp"
+                    android:textColor="#a2a4b5"
+                    tools:ignore="TextFields" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/your_Password"
+                    android:textStyle="bold"
+                    android:textColor="@color/light_blue"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/FamilyLogPassword"
+                    android:background="@drawable/lavender_border"
+                    android:layout_marginTop="12dp"
+                    android:padding="8dp"
+                    android:drawableStart="@drawable/lock"
+                    android:hint="@string/Password"
+                    android:inputType="textPassword"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/FamilyLogForgetPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forget_Password"
+                    android:textColor="@color/light_blue"
+                    android:layout_marginTop="12dp"
+                    android:textAlignment="viewEnd"
+                    android:layout_marginEnd="12dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="@string/Login"
+                    android:textStyle="bold"
+                    android:id="@+id/FamilyLogBtn"
+                    android:backgroundTint="@color/light_blue"
+                    android:textSize="18sp"
+                    android:onClick="loginFamily"
+                    android:layout_marginTop="20dp"
+                    app:cornerRadius ="20dp"/>
+
+                <TextView
+                    android:id="@+id/FamilyRegisterRedirect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dont_have_an_account_register"
+                    android:onClick="goRegisterFamily"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/light_blue"/>
+
+
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/bt_sign_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+
+                    android:layout_marginBottom="12dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+  </LinearLayout>

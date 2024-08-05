@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guidelines_Fragment"
+    android:layout_margin="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text="Have a Plan "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="When you are going out, whether it be alone or with a group of friends, it is best to have a plan in place. Knowing your surroundings, such as who and what is in the immediate area, is one of the most crucial safety tips to remember. Making a habit to pay attention to what is going on around you will help you become more aware of your environment. In addition, as an extra level of precaution, let someone outside of your group know your whereabouts and what you have planned for the day/evening.  "/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text="Ping Your Location  "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="Smartphones are not only a great tool for taking photos, sending messages, and sharing news, but they can also be lifesavers. Most smartphones have a great emergency feature that allows users to ping their location to anyone in their contact list. This feature is easy to setup and will draw attention to the user should they find themselves in an unsafe situation. "/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text="Tools for protection"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="When it comes to selecting a self-defense device, it is important to choose one you feel most comfortable carrying. Items such as pepper spray, a safety whistle, and a mini flashlight, are great options to have on hand when going out."/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text=" Create Boundaries "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="Regardless if you are out alone or with a group of friends, if you ever feel uncomfortable or unsafe with someone’s attention toward you, do not be afraid to put distance between yourself and the individual. There is nothing rude about protecting yourself in a potentially unsafe situation. At the end of the day, always remember to follow your instinct!  "/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text="Take a self-defense class"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="Turn safety into fun and try a class in self-defense! We never want to think the worst could happen. However, in terms of learning to protect oneself in a potentially dangerous situation, being equipped physically and mentally handle those scenarios is key. "/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text="Avoid oversharing on social media."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="While sharing your location can be good in situations when you need someone else to know where you are, it can also let criminals know when you are not at home.  Posting your location, travel plans and details about your home layout on social media can make it easy for people to know exactly how and when to break into your home. "/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text=" Update your friends or family."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="Let your friends or family know where you’re going and that you’ll be alone. Giving them updates along the way will give the both of you peace of mind. "/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/blue_my_color"
+                    android:textStyle="bold"
+                    android:text="Tell someone you got home safe. "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue_my_color"
+                    android:text="Tell a friend or family member to expect a text message from you when you get home and what to do if they don’t hear from you."/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Website:"
+                    android:textColor="@color/blue_my_color"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="https://www.placer.ca.gov/8848/Violence-against-women-general-safety-ti"
+                    android:autoLink="web"
+                    android:linksClickable="true"/>
+                <WebView
+                    android:id="@+id/webview_safety_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

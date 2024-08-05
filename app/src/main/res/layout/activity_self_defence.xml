@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".SelfDefence">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center"
+                android:text="SELF DEFENCE"
+                android:textColor="@color/blue_my_color"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="VIDEOS LINKs"
+                android:textColor="@color/blue_my_color"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Government Free Self-Defense Course 2022-2023 first Time in India"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/http_ncw_nic_in_ncw_cells_women_safety_cell"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Self Defense Training Initiative for Adolescent Girls"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/3fRi8TGEbS8?si=kB9hVZ0c2Yhpw2Il"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to protect yourself : Delhi Police self-defence techniques for girls"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/SzI2OQmFxyM?si=1JjtI_Wd7LBEXs03"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Self Defence Techniques for girls by Delhi Police  by PIB India"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/oiU3gSgDFOA?si=btfluC8t2fm9E1uN"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is self defense? Know your rights of self defense under the Indian penal code"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/Plk1rFPhaAQ?si=peU5SNgDonZLuHBS"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'Red Brigade' Led By Rape Survivors Is Empowering UP's Young Girls Against Sexual Violence"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/-KdvY1HdH78?si=p_RXQXW1tfm_E4TX"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mission Shakti l आत्मरक्षा प्रशिक्षण l Women Empowerment l Self Defence Training l Meena Manch"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/URy9hvZUFvA?si=DomPCQ4h1pPiZQ99"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_my_color"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.istockphoto.com/videos/self-defense-woman"
+                android:autoLink="web"
+                android:linksClickable="true"/>
+
+
+            <!--<ScrollView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">-->
+                <WebView
+                    android:id="@+id/webview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1800dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
